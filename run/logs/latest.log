@@ -1,5 +1,5 @@
-[17:44:47] [main/INFO] (FabricLoader/GameProvider) Loading Minecraft 1.21.4 with Fabric Loader 0.16.10
-[17:44:47] [main/INFO] (FabricLoader) Loading 55 mods:
+[19:32:28] [main/INFO] (FabricLoader/GameProvider) Loading Minecraft 1.21.4 with Fabric Loader 0.16.10
+[19:32:28] [main/INFO] (FabricLoader) Loading 55 mods:
 	- actualhay 1.0.0
 	- fabric-api 0.116.0+1.21.4
 	- fabric-api-base 0.4.54+b47eab6b04
@@ -55,28 +55,11 @@
 	- java 21
 	- minecraft 1.21.4
 	- mixinextras 0.4.1
-[17:44:47] [main/INFO] (FabricLoader/Mixin) SpongePowered MIXIN Subsystem Version=0.8.7 Source=file:/C:/Users/david/.gradle/caches/modules-2/files-2.1/net.fabricmc/sponge-mixin/0.15.4+mixin.0.8.7/6a12aacc794f1078458433116e9ed42c1cc98096/sponge-mixin-0.15.4+mixin.0.8.7.jar Service=Knot/Fabric Env=CLIENT
-[17:44:48] [main/INFO] (FabricLoader/Mixin) Loaded Fabric development mappings for mixin remapper!
-[17:44:48] [main/INFO] (FabricLoader/Mixin) Compatibility level set to JAVA_21
-[17:44:48] [main/ERROR] (FabricLoader) Uncaught exception in thread "main"
-java.lang.RuntimeException: Error parsing or using Mixin config actualhay.mixins.json for mod actualhay
-	at net.fabricmc.loader.impl.launch.FabricMixinBootstrap.init(FabricMixinBootstrap.java:96) ~[fabric-loader-0.16.10.jar:?]
-	at net.fabricmc.loader.impl.launch.knot.Knot.init(Knot.java:151) ~[fabric-loader-0.16.10.jar:?]
-	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:68) ~[fabric-loader-0.16.10.jar:?]
-	at net.fabricmc.loader.impl.launch.knot.KnotClient.main(KnotClient.java:23) ~[fabric-loader-0.16.10.jar:?]
-	at net.fabricmc.devlaunchinjector.Main.main(Main.java:86) ~[?:?]
-Caused by: org.spongepowered.asm.launch.MixinInitialisationError: Error initialising mixin config actualhay.mixins.json
-	at org.spongepowered.asm.mixin.transformer.Config.create(Config.java:168) ~[sponge-mixin-0.15.4+mixin.0.8.7.jar:0.15.4+mixin.0.8.7]
-	at org.spongepowered.asm.mixin.Mixins.createConfiguration(Mixins.java:121) ~[sponge-mixin-0.15.4+mixin.0.8.7.jar:0.15.4+mixin.0.8.7]
-	at org.spongepowered.asm.mixin.Mixins.addConfiguration(Mixins.java:108) ~[sponge-mixin-0.15.4+mixin.0.8.7.jar:0.15.4+mixin.0.8.7]
-	at org.spongepowered.asm.mixin.Mixins.addConfiguration(Mixins.java:98) ~[sponge-mixin-0.15.4+mixin.0.8.7.jar:0.15.4+mixin.0.8.7]
-	at net.fabricmc.loader.impl.launch.FabricMixinBootstrap.init(FabricMixinBootstrap.java:94) ~[fabric-loader-0.16.10.jar:?]
-	... 4 more
-Caused by: java.lang.IllegalArgumentException: The specified resource 'actualhay.mixins.json' was invalid or could not be read
-	at org.spongepowered.asm.mixin.transformer.MixinConfig.create(MixinConfig.java:1395) ~[sponge-mixin-0.15.4+mixin.0.8.7.jar:0.15.4+mixin.0.8.7]
-	at org.spongepowered.asm.mixin.transformer.Config.create(Config.java:163) ~[sponge-mixin-0.15.4+mixin.0.8.7.jar:0.15.4+mixin.0.8.7]
-	at org.spongepowered.asm.mixin.Mixins.createConfiguration(Mixins.java:121) ~[sponge-mixin-0.15.4+mixin.0.8.7.jar:0.15.4+mixin.0.8.7]
-	at org.spongepowered.asm.mixin.Mixins.addConfiguration(Mixins.java:108) ~[sponge-mixin-0.15.4+mixin.0.8.7.jar:0.15.4+mixin.0.8.7]
-	at org.spongepowered.asm.mixin.Mixins.addConfiguration(Mixins.java:98) ~[sponge-mixin-0.15.4+mixin.0.8.7.jar:0.15.4+mixin.0.8.7]
-	at net.fabricmc.loader.impl.launch.FabricMixinBootstrap.init(FabricMixinBootstrap.java:94) ~[fabric-loader-0.16.10.jar:?]
-	... 4 more
+[19:32:29] [main/INFO] (FabricLoader/Mixin) SpongePowered MIXIN Subsystem Version=0.8.7 Source=file:/C:/Users/david/.gradle/caches/modules-2/files-2.1/net.fabricmc/sponge-mixin/0.15.4+mixin.0.8.7/6a12aacc794f1078458433116e9ed42c1cc98096/sponge-mixin-0.15.4+mixin.0.8.7.jar Service=Knot/Fabric Env=CLIENT
+[19:32:29] [main/INFO] (FabricLoader/Mixin) Loaded Fabric development mappings for mixin remapper!
+[19:32:29] [main/INFO] (FabricLoader/Mixin) Compatibility level set to JAVA_21
+[19:32:30] [main/INFO] (FabricLoader/MixinExtras|Service) Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.4.1).
+[19:32:31] [Datafixer Bootstrap/INFO] (Minecraft) 243 Datafixer optimizations took 353 milliseconds
+[19:32:35] [Render thread/INFO] (Minecraft) Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[19:32:35] [Render thread/INFO] (Minecraft) Setting user: Player785
+[19:32:35] [Render thread/INFO] (actualhay) Registering Mod Items for actualhay
