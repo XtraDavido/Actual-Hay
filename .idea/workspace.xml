@@ -4,28 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ced4fd68-194e-4279-9218-ebd3b0e65145" name="Changes" comment="Added Straw &amp; Hay Recipes">
-      <change afterPath="$PROJECT_DIR$/src/main/java/net/xtradavido/actualhay/block/ModBlocks.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/8.11.1/checksums/checksums.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.11.1/checksums/checksums.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/8.11.1/checksums/md5-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.11.1/checksums/md5-checksums.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/8.11.1/checksums/sha1-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.11.1/checksums/sha1-checksums.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/8.11.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.11.1/executionHistory/executionHistory.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/8.11.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.11.1/executionHistory/executionHistory.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/8.11.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.11.1/fileHashes/fileHashes.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/8.11.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.11.1/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/loom-cache/launch.cfg" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/loom-cache/launch.cfg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/loom-cache/log4j.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/loom-cache/log4j.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/loom-cache/remapClasspath.txt" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/loom-cache/remapClasspath.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/runConfigurations/Data_Generation.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/runConfigurations/Data_Generation.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/runConfigurations/Minecraft_Client.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/runConfigurations/Minecraft_Client.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/runConfigurations/Minecraft_Server.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/runConfigurations/Minecraft_Server.xml" afterDir="false" />
+    <list default="true" id="ced4fd68-194e-4279-9218-ebd3b0e65145" name="Changes" comment="Added new Blocks">
+      <change afterPath="$PROJECT_DIR$/src/main/resources/data/minecraft/bread.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/data/minecraft/cake.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/data/minecraft/cookie.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/data/minecraft/hay_block.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/data/minecraft/packed_mud.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/data/minecraft/target.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/net/xtradavido/actualhay/ActualHay.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/xtradavido/actualhay/ActualHay.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/xtradavido/actualhay/block/ModBlocks.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/xtradavido/actualhay/block/ModBlocks.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/actualhay/icon.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/actual_hay/icon.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/data/actual_hay/recipe/hay_carpet.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/data/actual_hay/recipe/hay_carpet.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/data/actual_hay/recipe/straw_block.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/data/actual_hay/recipe/straw_block.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -98,7 +88,7 @@
     "git-widget-placeholder": "main",
     "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "E:/Users/david/IdeaProjects/Actual-Hay/.gradle/loom-cache/minecraftMaven/net/minecraft/minecraft-merged-abba00472f/1.21.4-net.fabricmc.yarn.1_21_4.1.21.4+build.8-v2/minecraft-merged-abba00472f-1.21.4-net.fabricmc.yarn.1_21_4.1.21.4+build.8-v2-sources.jar",
+    "last_opened_file_path": "E:/Users/david/IdeaProjects/Actual-Hay/src/main/resources/data/minecraft",
     "project.structure.last.edited": "Problems",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
@@ -107,6 +97,7 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\Users\david\IdeaProjects\Actual-Hay\src\main\resources\data\minecraft" />
       <recent name="D:\Users\David K\Documents\Actual Hay\src\main\resources\data\minecraft\recipe" />
       <recent name="D:\Users\David K\Documents\Actual Hay\src\main\resources\data\actual_hay\recipe" />
     </key>
@@ -159,7 +150,15 @@
       <option name="project" value="LOCAL" />
       <updated>1739223354433</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Added new Blocks">
+      <option name="closed" value="true" />
+      <created>1739290692707</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1739290692707</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -167,6 +166,7 @@
     <MESSAGE value="Initial Commit" />
     <MESSAGE value="Initial commit" />
     <MESSAGE value="Added Straw &amp; Hay Recipes" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added Straw &amp; Hay Recipes" />
+    <MESSAGE value="Added new Blocks" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added new Blocks" />
   </component>
 </project>

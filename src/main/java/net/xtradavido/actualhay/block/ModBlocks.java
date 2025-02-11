@@ -15,7 +15,6 @@ import net.minecraft.registry.Registry;
 import net.minecraft.sound.BlockSoundGroup;
 import net.minecraft.util.Identifier;
 import net.xtradavido.actualhay.ActualHay;
-import net.xtradavido.actualhay.item.ModItems;
 
 public class ModBlocks {
     public static final Block STRAW_BLOCK = registerBlock("straw_block",
