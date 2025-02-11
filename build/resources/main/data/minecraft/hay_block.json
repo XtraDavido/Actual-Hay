@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "ingredients": [
+    "actualhay:hay",
+    "actualhay:hay",
+    "actualhay:hay",
+    "actualhay:hay",
+    "actualhay:hay",
+    "actualhay:hay",
+    "actualhay:hay",
+    "actualhay:hay",
+    "actualhay:hay"
+  ],
+  "result": {
+    "count": 1,
+    "id": "minecraft:hay_block"
+  }
+}

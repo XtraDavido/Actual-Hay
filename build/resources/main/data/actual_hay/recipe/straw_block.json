@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "ingredients": [
+    "actualhay:straw",
+    "actualhay:straw",
+    "actualhay:straw",
+    "actualhay:straw",
+    "actualhay:straw",
+    "actualhay:straw",
+    "actualhay:straw",
+    "actualhay:straw",
+    "actualhay:straw"
+  ],
+  "result": {
+    "count": 1,
+    "id": "actualhay:straw_block"
+  }
+}

@@ -1,0 +1,198 @@
+[17:44:47] [main/INFO] (FabricLoader/GameProvider) Loading Minecraft 1.21.4 with Fabric Loader 0.16.10
+[17:44:47] [main/DEBUG] (FabricLoader/GamePatch) Found game constructor: net.minecraft.client.main.Main -> net.minecraft.client.MinecraftClient
+[17:44:47] [main/DEBUG] (FabricLoader/GamePatch) Patching game constructor <init>(Lnet/minecraft/client/RunArgs;)V
+[17:44:47] [main/DEBUG] (FabricLoader/GamePatch) Run directory field is thought to be net/minecraft/client/MinecraftClient/runDirectory
+[17:44:47] [main/DEBUG] (FabricLoader/GamePatch) Applying brand name hook to net/minecraft/client/ClientBrandRetriever::getClientModName
+[17:44:47] [main/DEBUG] (FabricLoader/GamePatch) Applying brand name hook to net/minecraft/server/MinecraftServer::getServerModName
+[17:44:47] [main/DEBUG] (FabricLoader/Mappings) Loading mappings took 103 ms
+[17:44:47] [main/DEBUG] (FabricLoader/GamePatch) Patched 3 classs
+[17:44:47] [main/DEBUG] (FabricLoader/Discovery) Mod discovery time: 36.9 ms
+[17:44:47] [main/DEBUG] (FabricLoader/Resolution) Mod resolution time: 51.9 ms
+[17:44:47] [main/INFO] (FabricLoader) Loading 55 mods:
+	- actualhay 1.0.0
+	- fabric-api 0.116.0+1.21.4
+	- fabric-api-base 0.4.54+b47eab6b04
+	- fabric-api-lookup-api-v1 1.6.86+b1caf1e904
+	- fabric-biome-api-v1 15.0.6+b1c29d8e04
+	- fabric-block-api-v1 1.0.31+7feeb73304
+	- fabric-block-view-api-v2 1.0.19+7feeb73304
+	- fabric-blockrenderlayer-v1 2.0.8+7feeb73304
+	- fabric-client-gametest-api-v1 4.1.0+44a0820d04
+	- fabric-client-tags-api-v1 1.1.29+20ea1e2304
+	- fabric-command-api-v1 1.2.62+f71b366f04
+	- fabric-command-api-v2 2.2.41+e496eb1504
+	- fabric-commands-v0 0.2.79+df3654b304
+	- fabric-content-registries-v0 9.1.17+7feeb73304
+	- fabric-convention-tags-v1 2.1.15+7f945d5b04
+	- fabric-convention-tags-v2 2.12.1+e359e31604
+	- fabric-crash-report-info-v1 0.3.6+7feeb73304
+	- fabric-data-attachment-api-v1 1.5.2+2d7e411e04
+	- fabric-data-generation-api-v1 22.2.10+20ea1e2304
+	- fabric-dimensions-v1 4.0.10+7feeb73304
+	- fabric-entity-events-v1 2.0.13+1934821104
+	- fabric-events-interaction-v0 4.0.3+a4eebcf004
+	- fabric-game-rule-api-v1 1.0.63+7d48d43904
+	- fabric-gametest-api-v1 2.0.24+7feeb73304
+	- fabric-item-api-v1 11.2.0+42f2d2ba04
+	- fabric-item-group-api-v1 4.2.0+fcb9601404
+	- fabric-key-binding-api-v1 1.0.57+7d48d43904
+	- fabric-keybindings-v0 0.2.55+df3654b304
+	- fabric-lifecycle-events-v1 2.5.4+bf2a60eb04
+	- fabric-loot-api-v2 3.0.36+3f89f5a504
+	- fabric-loot-api-v3 1.0.24+203e6b2304
+	- fabric-message-api-v1 6.0.25+7feeb73304
+	- fabric-model-loading-api-v1 4.3.0+ae23723504
+	- fabric-networking-api-v1 4.3.10+8998135104
+	- fabric-object-builder-api-v1 18.0.11+7d48d43904
+	- fabric-particles-v1 4.0.14+7feeb73304
+	- fabric-recipe-api-v1 8.0.9+160b66fa04
+	- fabric-registry-sync-v0 6.1.8+742bac2904
+	- fabric-renderer-api-v1 5.0.3+50f0feb204
+	- fabric-renderer-indigo 2.0.3+50f0feb204
+	- fabric-rendering-data-attachment-v1 0.3.57+73761d2e04
+	- fabric-rendering-fluids-v1 3.1.19+7feeb73304
+	- fabric-rendering-v1 10.2.0+44a0820d04
+	- fabric-resource-conditions-api-v1 5.0.13+203e6b2304
+	- fabric-resource-loader-v0 3.0.14+e359e31604
+	- fabric-screen-api-v1 2.0.38+7feeb73304
+	- fabric-screen-handler-api-v1 1.3.115+7feeb73304
+	- fabric-sound-api-v1 1.0.32+7feeb73304
+	- fabric-tag-api-v1 1.0.5+7d48d43904
+	- fabric-transfer-api-v1 5.4.9+efa825c904
+	- fabric-transitive-access-wideners-v1 6.3.2+56e78b9b04
+	- fabricloader 0.16.10
+	- java 21
+	- minecraft 1.21.4
+	- mixinextras 0.4.1
+[17:44:47] [main/DEBUG] (FabricLoader/Knot) Adding E:\Users\david\IdeaProjects\Actual-Hay\.gradle\loom-cache\remapped_mods\net_fabricmc_yarn_1_21_4_1_21_4_build_8_v2\net\fabricmc\fabric-api\fabric-transitive-access-wideners-v1\6.3.2+56e78b9b04\fabric-transitive-access-wideners-v1-6.3.2+56e78b9b04.jar to classpath.
+[17:44:47] [main/DEBUG] (FabricLoader/Knot) Adding E:\Users\david\IdeaProjects\Actual-Hay\.gradle\loom-cache\remapped_mods\net_fabricmc_yarn_1_21_4_1_21_4_build_8_v2\net\fabricmc\fabric-api\fabric-renderer-api-v1\5.0.3+50f0feb204\fabric-renderer-api-v1-5.0.3+50f0feb204.jar to classpath.
+[17:44:47] [main/DEBUG] (FabricLoader/Knot) Adding E:\Users\david\IdeaProjects\Actual-Hay\.gradle\loom-cache\remapped_mods\net_fabricmc_yarn_1_21_4_1_21_4_build_8_v2\net\fabricmc\fabric-api\fabric-entity-events-v1\2.0.13+1934821104\fabric-entity-events-v1-2.0.13+1934821104.jar to classpath.
+[17:44:47] [main/DEBUG] (FabricLoader/Knot) Adding E:\Users\david\IdeaProjects\Actual-Hay\.gradle\loom-cache\remapped_mods\net_fabricmc_yarn_1_21_4_1_21_4_build_8_v2\net\fabricmc\fabric-api\fabric-screen-handler-api-v1\1.3.115+7feeb73304\fabric-screen-handler-api-v1-1.3.115+7feeb73304.jar to classpath.
+[17:44:47] [main/DEBUG] (FabricLoader/Knot) Adding E:\Users\david\IdeaProjects\Actual-Hay\.gradle\loom-cache\remapped_mods\net_fabricmc_yarn_1_21_4_1_21_4_build_8_v2\net\fabricmc\fabric-api\fabric-api\0.116.0+1.21.4\fabric-api-0.116.0+1.21.4.jar to classpath.
+[17:44:47] [main/DEBUG] (FabricLoader/Knot) Adding E:\Users\david\IdeaProjects\Actual-Hay\.gradle\loom-cache\remapped_mods\net_fabricmc_yarn_1_21_4_1_21_4_build_8_v2\net\fabricmc\fabric-api\fabric-loot-api-v2\3.0.36+3f89f5a504\fabric-loot-api-v2-3.0.36+3f89f5a504.jar to classpath.
+[17:44:47] [main/DEBUG] (FabricLoader/Knot) Adding E:\Users\david\IdeaProjects\Actual-Hay\.gradle\loom-cache\remapped_mods\net_fabricmc_yarn_1_21_4_1_21_4_build_8_v2\net\fabricmc\fabric-api\fabric-game-rule-api-v1\1.0.63+7d48d43904\fabric-game-rule-api-v1-1.0.63+7d48d43904.jar to classpath.
+[17:44:47] [main/DEBUG] (FabricLoader/Knot) Adding E:\Users\david\IdeaProjects\Actual-Hay\.gradle\loom-cache\remapped_mods\net_fabricmc_yarn_1_21_4_1_21_4_build_8_v2\net\fabricmc\fabric-api\fabric-lifecycle-events-v1\2.5.4+bf2a60eb04\fabric-lifecycle-events-v1-2.5.4+bf2a60eb04.jar to classpath.
+[17:44:47] [main/DEBUG] (FabricLoader/Knot) Adding E:\Users\david\IdeaProjects\Actual-Hay\.gradle\loom-cache\remapped_mods\net_fabricmc_yarn_1_21_4_1_21_4_build_8_v2\net\fabricmc\fabric-api\fabric-gametest-api-v1\2.0.24+7feeb73304\fabric-gametest-api-v1-2.0.24+7feeb73304.jar to classpath.
+[17:44:47] [main/DEBUG] (FabricLoader/Knot) Adding E:\Users\david\IdeaProjects\Actual-Hay\.gradle\loom-cache\remapped_mods\net_fabricmc_yarn_1_21_4_1_21_4_build_8_v2\net\fabricmc\fabric-api\fabric-loot-api-v3\1.0.24+203e6b2304\fabric-loot-api-v3-1.0.24+203e6b2304.jar to classpath.
+[17:44:47] [main/DEBUG] (FabricLoader/Knot) Adding E:\Users\david\IdeaProjects\Actual-Hay\.gradle\loom-cache\remapped_mods\net_fabricmc_yarn_1_21_4_1_21_4_build_8_v2\net\fabricmc\fabric-api\fabric-rendering-v1\10.2.0+44a0820d04\fabric-rendering-v1-10.2.0+44a0820d04.jar to classpath.
+[17:44:47] [main/DEBUG] (FabricLoader/Knot) Adding E:\Users\david\IdeaProjects\Actual-Hay\.gradle\loom-cache\remapped_mods\net_fabricmc_yarn_1_21_4_1_21_4_build_8_v2\net\fabricmc\fabric-api\fabric-biome-api-v1\15.0.6+b1c29d8e04\fabric-biome-api-v1-15.0.6+b1c29d8e04.jar to classpath.
+[17:44:47] [main/DEBUG] (FabricLoader/Knot) Adding E:\Users\david\IdeaProjects\Actual-Hay\.gradle\loom-cache\remapped_mods\net_fabricmc_yarn_1_21_4_1_21_4_build_8_v2\net\fabricmc\fabric-api\fabric-content-registries-v0\9.1.17+7feeb73304\fabric-content-registries-v0-9.1.17+7feeb73304.jar to classpath.
+[17:44:47] [main/DEBUG] (FabricLoader/Knot) Adding E:\Users\david\IdeaProjects\Actual-Hay\.gradle\loom-cache\remapped_mods\net_fabricmc_yarn_1_21_4_1_21_4_build_8_v2\net\fabricmc\fabric-api\fabric-screen-api-v1\2.0.38+7feeb73304\fabric-screen-api-v1-2.0.38+7feeb73304.jar to classpath.
+[17:44:47] [main/DEBUG] (FabricLoader/Knot) Adding E:\Users\david\IdeaProjects\Actual-Hay\.gradle\loom-cache\remapped_mods\net_fabricmc_yarn_1_21_4_1_21_4_build_8_v2\net\fabricmc\fabric-api\fabric-resource-loader-v0\3.0.14+e359e31604\fabric-resource-loader-v0-3.0.14+e359e31604.jar to classpath.
+[17:44:47] [main/DEBUG] (FabricLoader/Knot) Adding E:\Users\david\IdeaProjects\Actual-Hay\.gradle\loom-cache\remapped_mods\net_fabricmc_yarn_1_21_4_1_21_4_build_8_v2\net\fabricmc\fabric-api\fabric-blockrenderlayer-v1\2.0.8+7feeb73304\fabric-blockrenderlayer-v1-2.0.8+7feeb73304.jar to classpath.
+[17:44:47] [main/DEBUG] (FabricLoader/Knot) Adding E:\Users\david\IdeaProjects\Actual-Hay\build\resources\main to classpath.
+[17:44:47] [main/DEBUG] (FabricLoader/Knot) Adding E:\Users\david\IdeaProjects\Actual-Hay\.gradle\loom-cache\remapped_mods\net_fabricmc_yarn_1_21_4_1_21_4_build_8_v2\net\fabricmc\fabric-api\fabric-crash-report-info-v1\0.3.6+7feeb73304\fabric-crash-report-info-v1-0.3.6+7feeb73304.jar to classpath.
+[17:44:47] [main/DEBUG] (FabricLoader/Knot) Adding E:\Users\david\IdeaProjects\Actual-Hay\.gradle\loom-cache\remapped_mods\net_fabricmc_yarn_1_21_4_1_21_4_build_8_v2\net\fabricmc\fabric-api\fabric-api-lookup-api-v1\1.6.86+b1caf1e904\fabric-api-lookup-api-v1-1.6.86+b1caf1e904.jar to classpath.
+[17:44:47] [main/DEBUG] (FabricLoader/Knot) Adding E:\Users\david\IdeaProjects\Actual-Hay\.gradle\loom-cache\remapped_mods\net_fabricmc_yarn_1_21_4_1_21_4_build_8_v2\net\fabricmc\fabric-api\fabric-convention-tags-v2\2.12.1+e359e31604\fabric-convention-tags-v2-2.12.1+e359e31604.jar to classpath.
+[17:44:47] [main/DEBUG] (FabricLoader/Knot) Adding E:\Users\david\IdeaProjects\Actual-Hay\.gradle\loom-cache\remapped_mods\net_fabricmc_yarn_1_21_4_1_21_4_build_8_v2\net\fabricmc\fabric-api\fabric-particles-v1\4.0.14+7feeb73304\fabric-particles-v1-4.0.14+7feeb73304.jar to classpath.
+[17:44:47] [main/DEBUG] (FabricLoader/Knot) Adding E:\Users\david\IdeaProjects\Actual-Hay\.gradle\loom-cache\remapped_mods\net_fabricmc_yarn_1_21_4_1_21_4_build_8_v2\net\fabricmc\fabric-api\fabric-item-api-v1\11.2.0+42f2d2ba04\fabric-item-api-v1-11.2.0+42f2d2ba04.jar to classpath.
+[17:44:47] [main/DEBUG] (FabricLoader/Knot) Adding E:\Users\david\IdeaProjects\Actual-Hay\.gradle\loom-cache\remapped_mods\net_fabricmc_yarn_1_21_4_1_21_4_build_8_v2\net\fabricmc\fabric-api\fabric-block-api-v1\1.0.31+7feeb73304\fabric-block-api-v1-1.0.31+7feeb73304.jar to classpath.
+[17:44:47] [main/DEBUG] (FabricLoader/Knot) Adding E:\Users\david\IdeaProjects\Actual-Hay\.gradle\loom-cache\remapped_mods\net_fabricmc_yarn_1_21_4_1_21_4_build_8_v2\net\fabricmc\fabric-api\fabric-client-gametest-api-v1\4.1.0+44a0820d04\fabric-client-gametest-api-v1-4.1.0+44a0820d04.jar to classpath.
+[17:44:47] [main/DEBUG] (FabricLoader/Knot) Adding E:\Users\david\IdeaProjects\Actual-Hay\.gradle\loom-cache\remapped_mods\net_fabricmc_yarn_1_21_4_1_21_4_build_8_v2\net\fabricmc\fabric-api\fabric-recipe-api-v1\8.0.9+160b66fa04\fabric-recipe-api-v1-8.0.9+160b66fa04.jar to classpath.
+[17:44:47] [main/DEBUG] (FabricLoader/Knot) Adding E:\Users\david\IdeaProjects\Actual-Hay\.gradle\loom-cache\remapped_mods\net_fabricmc_yarn_1_21_4_1_21_4_build_8_v2\net\fabricmc\fabric-api\fabric-rendering-fluids-v1\3.1.19+7feeb73304\fabric-rendering-fluids-v1-3.1.19+7feeb73304.jar to classpath.
+[17:44:47] [main/DEBUG] (FabricLoader/Knot) Adding E:\Users\david\IdeaProjects\Actual-Hay\.gradle\loom-cache\remapped_mods\net_fabricmc_yarn_1_21_4_1_21_4_build_8_v2\net\fabricmc\fabric-api\fabric-transfer-api-v1\5.4.9+efa825c904\fabric-transfer-api-v1-5.4.9+efa825c904.jar to classpath.
+[17:44:47] [main/DEBUG] (FabricLoader/Knot) Adding E:\Users\david\IdeaProjects\Actual-Hay\.gradle\loom-cache\remapped_mods\net_fabricmc_yarn_1_21_4_1_21_4_build_8_v2\net\fabricmc\fabric-api\fabric-renderer-indigo\2.0.3+50f0feb204\fabric-renderer-indigo-2.0.3+50f0feb204.jar to classpath.
+[17:44:47] [main/DEBUG] (FabricLoader/Knot) Adding E:\Users\david\IdeaProjects\Actual-Hay\.gradle\loom-cache\remapped_mods\net_fabricmc_yarn_1_21_4_1_21_4_build_8_v2\net\fabricmc\fabric-api\fabric-data-generation-api-v1\22.2.10+20ea1e2304\fabric-data-generation-api-v1-22.2.10+20ea1e2304.jar to classpath.
+[17:44:47] [main/DEBUG] (FabricLoader/Knot) Adding E:\Users\david\IdeaProjects\Actual-Hay\.gradle\loom-cache\remapped_mods\net_fabricmc_yarn_1_21_4_1_21_4_build_8_v2\net\fabricmc\fabric-api\fabric-commands-v0\0.2.79+df3654b304\fabric-commands-v0-0.2.79+df3654b304.jar to classpath.
+[17:44:47] [main/DEBUG] (FabricLoader/Knot) Adding E:\Users\david\IdeaProjects\Actual-Hay\.gradle\loom-cache\remapped_mods\net_fabricmc_yarn_1_21_4_1_21_4_build_8_v2\net\fabricmc\fabric-api\fabric-api-base\0.4.54+b47eab6b04\fabric-api-base-0.4.54+b47eab6b04.jar to classpath.
+[17:44:47] [main/DEBUG] (FabricLoader/Knot) Adding E:\Users\david\IdeaProjects\Actual-Hay\.gradle\loom-cache\remapped_mods\net_fabricmc_yarn_1_21_4_1_21_4_build_8_v2\net\fabricmc\fabric-api\fabric-key-binding-api-v1\1.0.57+7d48d43904\fabric-key-binding-api-v1-1.0.57+7d48d43904.jar to classpath.
+[17:44:47] [main/DEBUG] (FabricLoader/Knot) Adding E:\Users\david\IdeaProjects\Actual-Hay\.gradle\loom-cache\remapped_mods\net_fabricmc_yarn_1_21_4_1_21_4_build_8_v2\net\fabricmc\fabric-api\fabric-convention-tags-v1\2.1.15+7f945d5b04\fabric-convention-tags-v1-2.1.15+7f945d5b04.jar to classpath.
+[17:44:47] [main/DEBUG] (FabricLoader/Knot) Adding E:\Users\david\IdeaProjects\Actual-Hay\.gradle\loom-cache\remapped_mods\net_fabricmc_yarn_1_21_4_1_21_4_build_8_v2\net\fabricmc\fabric-api\fabric-tag-api-v1\1.0.5+7d48d43904\fabric-tag-api-v1-1.0.5+7d48d43904.jar to classpath.
+[17:44:47] [main/DEBUG] (FabricLoader/Knot) Adding C:\Users\david\.gradle\caches\modules-2\files-2.1\io.github.llamalad7\mixinextras-fabric\0.4.1\8d1a9e96afb990367fa1f904d17580d164da72e3\mixinextras-fabric-0.4.1.jar to classpath.
+[17:44:47] [main/DEBUG] (FabricLoader/Knot) Adding E:\Users\david\IdeaProjects\Actual-Hay\.gradle\loom-cache\remapped_mods\net_fabricmc_yarn_1_21_4_1_21_4_build_8_v2\net\fabricmc\fabric-api\fabric-dimensions-v1\4.0.10+7feeb73304\fabric-dimensions-v1-4.0.10+7feeb73304.jar to classpath.
+[17:44:47] [main/DEBUG] (FabricLoader/Knot) Adding E:\Users\david\IdeaProjects\Actual-Hay\.gradle\loom-cache\remapped_mods\net_fabricmc_yarn_1_21_4_1_21_4_build_8_v2\net\fabricmc\fabric-api\fabric-rendering-data-attachment-v1\0.3.57+73761d2e04\fabric-rendering-data-attachment-v1-0.3.57+73761d2e04.jar to classpath.
+[17:44:47] [main/DEBUG] (FabricLoader/Knot) Adding E:\Users\david\IdeaProjects\Actual-Hay\.gradle\loom-cache\remapped_mods\net_fabricmc_yarn_1_21_4_1_21_4_build_8_v2\net\fabricmc\fabric-api\fabric-registry-sync-v0\6.1.8+742bac2904\fabric-registry-sync-v0-6.1.8+742bac2904.jar to classpath.
+[17:44:47] [main/DEBUG] (FabricLoader/Knot) Adding E:\Users\david\IdeaProjects\Actual-Hay\.gradle\loom-cache\remapped_mods\net_fabricmc_yarn_1_21_4_1_21_4_build_8_v2\net\fabricmc\fabric-api\fabric-data-attachment-api-v1\1.5.2+2d7e411e04\fabric-data-attachment-api-v1-1.5.2+2d7e411e04.jar to classpath.
+[17:44:47] [main/DEBUG] (FabricLoader/Knot) Adding E:\Users\david\IdeaProjects\Actual-Hay\.gradle\loom-cache\remapped_mods\net_fabricmc_yarn_1_21_4_1_21_4_build_8_v2\net\fabricmc\fabric-api\fabric-networking-api-v1\4.3.10+8998135104\fabric-networking-api-v1-4.3.10+8998135104.jar to classpath.
+[17:44:47] [main/DEBUG] (FabricLoader/Knot) Adding E:\Users\david\IdeaProjects\Actual-Hay\.gradle\loom-cache\remapped_mods\net_fabricmc_yarn_1_21_4_1_21_4_build_8_v2\net\fabricmc\fabric-api\fabric-command-api-v1\1.2.62+f71b366f04\fabric-command-api-v1-1.2.62+f71b366f04.jar to classpath.
+[17:44:47] [main/DEBUG] (FabricLoader/Knot) Adding E:\Users\david\IdeaProjects\Actual-Hay\.gradle\loom-cache\remapped_mods\net_fabricmc_yarn_1_21_4_1_21_4_build_8_v2\net\fabricmc\fabric-api\fabric-model-loading-api-v1\4.3.0+ae23723504\fabric-model-loading-api-v1-4.3.0+ae23723504.jar to classpath.
+[17:44:47] [main/DEBUG] (FabricLoader/Knot) Adding E:\Users\david\IdeaProjects\Actual-Hay\.gradle\loom-cache\remapped_mods\net_fabricmc_yarn_1_21_4_1_21_4_build_8_v2\net\fabricmc\fabric-api\fabric-client-tags-api-v1\1.1.29+20ea1e2304\fabric-client-tags-api-v1-1.1.29+20ea1e2304.jar to classpath.
+[17:44:47] [main/DEBUG] (FabricLoader/Knot) Adding E:\Users\david\IdeaProjects\Actual-Hay\.gradle\loom-cache\remapped_mods\net_fabricmc_yarn_1_21_4_1_21_4_build_8_v2\net\fabricmc\fabric-api\fabric-keybindings-v0\0.2.55+df3654b304\fabric-keybindings-v0-0.2.55+df3654b304.jar to classpath.
+[17:44:47] [main/DEBUG] (FabricLoader/Knot) Adding E:\Users\david\IdeaProjects\Actual-Hay\.gradle\loom-cache\remapped_mods\net_fabricmc_yarn_1_21_4_1_21_4_build_8_v2\net\fabricmc\fabric-api\fabric-sound-api-v1\1.0.32+7feeb73304\fabric-sound-api-v1-1.0.32+7feeb73304.jar to classpath.
+[17:44:47] [main/DEBUG] (FabricLoader/Knot) Adding E:\Users\david\IdeaProjects\Actual-Hay\.gradle\loom-cache\remapped_mods\net_fabricmc_yarn_1_21_4_1_21_4_build_8_v2\net\fabricmc\fabric-api\fabric-block-view-api-v2\1.0.19+7feeb73304\fabric-block-view-api-v2-1.0.19+7feeb73304.jar to classpath.
+[17:44:47] [main/DEBUG] (FabricLoader/Knot) Adding E:\Users\david\IdeaProjects\Actual-Hay\.gradle\loom-cache\remapped_mods\net_fabricmc_yarn_1_21_4_1_21_4_build_8_v2\net\fabricmc\fabric-api\fabric-object-builder-api-v1\18.0.11+7d48d43904\fabric-object-builder-api-v1-18.0.11+7d48d43904.jar to classpath.
+[17:44:47] [main/DEBUG] (FabricLoader/Knot) Adding E:\Users\david\IdeaProjects\Actual-Hay\.gradle\loom-cache\remapped_mods\net_fabricmc_yarn_1_21_4_1_21_4_build_8_v2\net\fabricmc\fabric-api\fabric-events-interaction-v0\4.0.3+a4eebcf004\fabric-events-interaction-v0-4.0.3+a4eebcf004.jar to classpath.
+[17:44:47] [main/DEBUG] (FabricLoader/Knot) Adding E:\Users\david\IdeaProjects\Actual-Hay\.gradle\loom-cache\remapped_mods\net_fabricmc_yarn_1_21_4_1_21_4_build_8_v2\net\fabricmc\fabric-api\fabric-item-group-api-v1\4.2.0+fcb9601404\fabric-item-group-api-v1-4.2.0+fcb9601404.jar to classpath.
+[17:44:47] [main/DEBUG] (FabricLoader/Knot) Adding E:\Users\david\IdeaProjects\Actual-Hay\.gradle\loom-cache\remapped_mods\net_fabricmc_yarn_1_21_4_1_21_4_build_8_v2\net\fabricmc\fabric-api\fabric-resource-conditions-api-v1\5.0.13+203e6b2304\fabric-resource-conditions-api-v1-5.0.13+203e6b2304.jar to classpath.
+[17:44:47] [main/DEBUG] (FabricLoader/Knot) Adding E:\Users\david\IdeaProjects\Actual-Hay\.gradle\loom-cache\remapped_mods\net_fabricmc_yarn_1_21_4_1_21_4_build_8_v2\net\fabricmc\fabric-api\fabric-command-api-v2\2.2.41+e496eb1504\fabric-command-api-v2-2.2.41+e496eb1504.jar to classpath.
+[17:44:47] [main/DEBUG] (FabricLoader/Knot) Adding E:\Users\david\IdeaProjects\Actual-Hay\.gradle\loom-cache\remapped_mods\net_fabricmc_yarn_1_21_4_1_21_4_build_8_v2\net\fabricmc\fabric-api\fabric-message-api-v1\6.0.25+7feeb73304\fabric-message-api-v1-6.0.25+7feeb73304.jar to classpath.
+[17:44:47] [main/DEBUG] (FabricLoader/Entrypoint) Registering new-style initializer net.fabricmc.fabric.impl.screenhandler.client.ClientNetworking for mod fabric-screen-handler-api-v1 (key client)
+[17:44:47] [main/DEBUG] (FabricLoader/Entrypoint) Registering new-style initializer net.fabricmc.fabric.impl.screenhandler.Networking for mod fabric-screen-handler-api-v1 (key main)
+[17:44:47] [main/DEBUG] (FabricLoader/Entrypoint) Registering new-style initializer net.fabricmc.fabric.impl.loot.v2.LootInitializer for mod fabric-loot-api-v2 (key main)
+[17:44:47] [main/DEBUG] (FabricLoader/Entrypoint) Registering new-style initializer net.fabricmc.fabric.impl.client.event.lifecycle.ClientLifecycleEventsImpl for mod fabric-lifecycle-events-v1 (key client)
+[17:44:47] [main/DEBUG] (FabricLoader/Entrypoint) Registering new-style initializer net.fabricmc.fabric.impl.event.lifecycle.LifecycleEventsImpl for mod fabric-lifecycle-events-v1 (key main)
+[17:44:47] [main/DEBUG] (FabricLoader/Entrypoint) Registering new-style initializer net.fabricmc.fabric.impl.gametest.FabricGameTestModInitializer for mod fabric-gametest-api-v1 (key main)
+[17:44:47] [main/DEBUG] (FabricLoader/Entrypoint) Registering new-style initializer net.xtradavido.actualhay.ActualHayDataGenerator for mod actualhay (key fabric-datagen)
+[17:44:47] [main/DEBUG] (FabricLoader/Entrypoint) Registering new-style initializer net.xtradavido.actualhay.ActualHayClient for mod actualhay (key client)
+[17:44:47] [main/DEBUG] (FabricLoader/Entrypoint) Registering new-style initializer net.xtradavido.actualhay.ActualHay for mod actualhay (key main)
+[17:44:47] [main/DEBUG] (FabricLoader/Entrypoint) Registering new-style initializer net.fabricmc.fabric.impl.lookup.ApiLookupImpl for mod fabric-api-lookup-api-v1 (key main)
+[17:44:47] [main/DEBUG] (FabricLoader/Entrypoint) Registering new-style initializer net.fabricmc.fabric.impl.tag.convention.v2.TranslationConventionLogWarnings for mod fabric-convention-tags-v2 (key main)
+[17:44:47] [main/DEBUG] (FabricLoader/Entrypoint) Registering new-style initializer net.fabricmc.fabric.impl.recipe.ingredient.client.CustomIngredientSyncClient for mod fabric-recipe-api-v1 (key client)
+[17:44:47] [main/DEBUG] (FabricLoader/Entrypoint) Registering new-style initializer net.fabricmc.fabric.impl.recipe.ingredient.CustomIngredientInit for mod fabric-recipe-api-v1 (key main)
+[17:44:47] [main/DEBUG] (FabricLoader/Entrypoint) Registering new-style initializer net.fabricmc.fabric.impl.recipe.ingredient.CustomIngredientSync for mod fabric-recipe-api-v1 (key main)
+[17:44:47] [main/DEBUG] (FabricLoader/Entrypoint) Registering new-style initializer net.fabricmc.fabric.impl.client.indigo.Indigo for mod fabric-renderer-indigo (key client)
+[17:44:47] [main/DEBUG] (FabricLoader/Entrypoint) Registering new-style initializer net.fabricmc.fabric.impl.tag.convention.ConventionLogWarnings for mod fabric-convention-tags-v1 (key main)
+[17:44:47] [main/DEBUG] (FabricLoader/Entrypoint) Registering new-style initializer net.fabricmc.fabric.impl.tag.TagInit for mod fabric-tag-api-v1 (key main)
+[17:44:47] [main/DEBUG] (FabricLoader/Entrypoint) Registering new-style initializer net.fabricmc.fabric.impl.client.registry.sync.FabricRegistryClientInit for mod fabric-registry-sync-v0 (key client)
+[17:44:47] [main/DEBUG] (FabricLoader/Entrypoint) Registering new-style initializer net.fabricmc.fabric.impl.registry.sync.FabricRegistryInit for mod fabric-registry-sync-v0 (key main)
+[17:44:47] [main/DEBUG] (FabricLoader/Entrypoint) Registering new-style initializer net.fabricmc.fabric.impl.attachment.client.AttachmentSyncClient for mod fabric-data-attachment-api-v1 (key client)
+[17:44:47] [main/DEBUG] (FabricLoader/Entrypoint) Registering new-style initializer net.fabricmc.fabric.impl.attachment.AttachmentEntrypoint for mod fabric-data-attachment-api-v1 (key main)
+[17:44:47] [main/DEBUG] (FabricLoader/Entrypoint) Registering new-style initializer net.fabricmc.fabric.impl.attachment.sync.AttachmentSync for mod fabric-data-attachment-api-v1 (key main)
+[17:44:47] [main/DEBUG] (FabricLoader/Entrypoint) Registering new-style initializer net.fabricmc.fabric.impl.networking.client.ClientNetworkingImpl::clientInit for mod fabric-networking-api-v1 (key client)
+[17:44:47] [main/DEBUG] (FabricLoader/Entrypoint) Registering new-style initializer net.fabricmc.fabric.impl.networking.CommonPacketsImpl::init for mod fabric-networking-api-v1 (key main)
+[17:44:47] [main/DEBUG] (FabricLoader/Entrypoint) Registering new-style initializer net.fabricmc.fabric.impl.networking.NetworkingImpl::init for mod fabric-networking-api-v1 (key main)
+[17:44:47] [main/DEBUG] (FabricLoader/Entrypoint) Registering new-style initializer net.fabricmc.fabric.impl.command.v1.LegacyHandler for mod fabric-command-api-v1 (key main)
+[17:44:47] [main/DEBUG] (FabricLoader/Entrypoint) Registering new-style initializer net.fabricmc.fabric.impl.event.interaction.InteractionEventsRouter for mod fabric-events-interaction-v0 (key main)
+[17:44:47] [main/DEBUG] (FabricLoader/Entrypoint) Registering new-style initializer net.fabricmc.fabric.impl.resource.conditions.ResourceConditionsImpl for mod fabric-resource-conditions-api-v1 (key main)
+[17:44:47] [main/INFO] (FabricLoader/Mixin) SpongePowered MIXIN Subsystem Version=0.8.7 Source=file:/C:/Users/david/.gradle/caches/modules-2/files-2.1/net.fabricmc/sponge-mixin/0.15.4+mixin.0.8.7/6a12aacc794f1078458433116e9ed42c1cc98096/sponge-mixin-0.15.4+mixin.0.8.7.jar Service=Knot/Fabric Env=CLIENT
+[17:44:48] [main/DEBUG] (FabricLoader/Mixin) Initialising Mixin Platform Manager
+[17:44:48] [main/DEBUG] (FabricLoader/Mixin) Adding mixin platform agents for container ContainerHandleURI(file:///C:/Users/david/.gradle/caches/modules-2/files-2.1/net.fabricmc/fabric-loader/0.16.10/dbd932c2a3641d2c41cf9abfe47e140a5753fa86/fabric-loader-0.16.10.jar)
+[17:44:48] [main/DEBUG] (FabricLoader/Mixin) Instancing new MixinPlatformAgentDefault for ContainerHandleURI(file:///C:/Users/david/.gradle/caches/modules-2/files-2.1/net.fabricmc/fabric-loader/0.16.10/dbd932c2a3641d2c41cf9abfe47e140a5753fa86/fabric-loader-0.16.10.jar)
+[17:44:48] [main/DEBUG] (FabricLoader/Mixin) MixinPlatformAgentDefault accepted container ContainerHandleURI(file:///C:/Users/david/.gradle/caches/modules-2/files-2.1/net.fabricmc/fabric-loader/0.16.10/dbd932c2a3641d2c41cf9abfe47e140a5753fa86/fabric-loader-0.16.10.jar)
+[17:44:48] [main/DEBUG] (FabricLoader/Mixin) Instancing new MixinPlatformAgentDefault for ContainerHandleURI(file:///C:/Users/david/.gradle/caches/modules-2/files-2.1/net.fabricmc/fabric-loader/0.16.10/dbd932c2a3641d2c41cf9abfe47e140a5753fa86/fabric-loader-0.16.10.jar)
+[17:44:48] [main/DEBUG] (FabricLoader/Mixin) MixinPlatformAgentDefault accepted container ContainerHandleURI(file:///C:/Users/david/.gradle/caches/modules-2/files-2.1/net.fabricmc/fabric-loader/0.16.10/dbd932c2a3641d2c41cf9abfe47e140a5753fa86/fabric-loader-0.16.10.jar)
+[17:44:48] [main/DEBUG] (FabricLoader/Mixin) Processing prepare() for PlatformAgent[MixinPlatformAgentDefault:ContainerHandleURI(file:///C:/Users/david/.gradle/caches/modules-2/files-2.1/net.fabricmc/fabric-loader/0.16.10/dbd932c2a3641d2c41cf9abfe47e140a5753fa86/fabric-loader-0.16.10.jar)]
+[17:44:48] [main/DEBUG] (FabricLoader/Mixin) Processing prepare() for PlatformAgent[MixinPlatformAgentDefault:ContainerHandleURI(file:///C:/Users/david/.gradle/caches/modules-2/files-2.1/net.fabricmc/fabric-loader/0.16.10/dbd932c2a3641d2c41cf9abfe47e140a5753fa86/fabric-loader-0.16.10.jar)]
+[17:44:48] [main/INFO] (FabricLoader/Mixin) Loaded Fabric development mappings for mixin remapper!
+[17:44:48] [main/DEBUG] (FabricLoader/Mixin) Compatibility level JAVA_21 specified by fabric-renderer-api-v1.mixins.json is higher than the maximum level supported by this version of mixin (JAVA_13).
+[17:44:48] [main/INFO] (FabricLoader/Mixin) Compatibility level set to JAVA_21
+[17:44:48] [main/DEBUG] (FabricLoader/Mixin) Mixin config fabric-renderer-api-v1.mixins.json does not specify "minVersion" or "requiredFeatures" property
+[17:44:48] [main/DEBUG] (FabricLoader/Mixin) Mixin config fabric-renderer-api-v1.debughud.mixins.json does not specify "minVersion" or "requiredFeatures" property
+[17:44:48] [main/DEBUG] (FabricLoader/Mixin) Mixin config fabric-entity-events-v1.mixins.json does not specify "minVersion" or "requiredFeatures" property
+[17:44:48] [main/DEBUG] (FabricLoader/Mixin) Mixin config fabric-screen-handler-api-v1.mixins.json does not specify "minVersion" or "requiredFeatures" property
+[17:44:48] [main/DEBUG] (FabricLoader/Mixin) Mixin config fabric-loot-api-v2.mixins.json does not specify "minVersion" or "requiredFeatures" property
+[17:44:48] [main/DEBUG] (FabricLoader/Mixin) Mixin config fabric-game-rule-api-v1.mixins.json does not specify "minVersion" or "requiredFeatures" property
+[17:44:48] [main/DEBUG] (FabricLoader/Mixin) Mixin config fabric-game-rule-api-v1.client.mixins.json does not specify "minVersion" or "requiredFeatures" property
+[17:44:48] [main/DEBUG] (FabricLoader/Mixin) Mixin config fabric-lifecycle-events-v1.mixins.json does not specify "minVersion" or "requiredFeatures" property
+[17:44:48] [main/DEBUG] (FabricLoader/Mixin) Mixin config fabric-lifecycle-events-v1.client.mixins.json does not specify "minVersion" or "requiredFeatures" property
+[17:44:48] [main/DEBUG] (FabricLoader/Mixin) Mixin config fabric-gametest-api-v1.mixins.json does not specify "minVersion" or "requiredFeatures" property
+[17:44:48] [main/DEBUG] (FabricLoader/Mixin) Mixin config fabric-loot-api-v3.mixins.json does not specify "minVersion" or "requiredFeatures" property
+[17:44:48] [main/DEBUG] (FabricLoader/Mixin) Mixin config fabric-rendering-v1.mixins.json does not specify "minVersion" or "requiredFeatures" property
+[17:44:48] [main/DEBUG] (FabricLoader/Mixin) Mixin config fabric-biome-api-v1.mixins.json does not specify "minVersion" or "requiredFeatures" property
+[17:44:48] [main/DEBUG] (FabricLoader/Mixin) Mixin config fabric-content-registries-v0.mixins.json does not specify "minVersion" or "requiredFeatures" property
+[17:44:48] [main/DEBUG] (FabricLoader/Mixin) Mixin config fabric-screen-api-v1.mixins.json does not specify "minVersion" or "requiredFeatures" property
+[17:44:48] [main/DEBUG] (FabricLoader/Mixin) Mixin config fabric-resource-loader-v0.mixins.json does not specify "minVersion" or "requiredFeatures" property
+[17:44:48] [main/DEBUG] (FabricLoader/Mixin) Mixin config fabric-resource-loader-v0.client.mixins.json does not specify "minVersion" or "requiredFeatures" property
+[17:44:48] [main/DEBUG] (FabricLoader/Mixin) Mixin config fabric-blockrenderlayer-v1.mixins.json does not specify "minVersion" or "requiredFeatures" property
+[17:44:48] [main/ERROR] (FabricLoader) Uncaught exception in thread "main"
+java.lang.RuntimeException: Error parsing or using Mixin config actualhay.mixins.json for mod actualhay
+	at net.fabricmc.loader.impl.launch.FabricMixinBootstrap.init(FabricMixinBootstrap.java:96) ~[fabric-loader-0.16.10.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.Knot.init(Knot.java:151) ~[fabric-loader-0.16.10.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:68) ~[fabric-loader-0.16.10.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.KnotClient.main(KnotClient.java:23) ~[fabric-loader-0.16.10.jar:?]
+	at net.fabricmc.devlaunchinjector.Main.main(Main.java:86) ~[?:?]
+Caused by: org.spongepowered.asm.launch.MixinInitialisationError: Error initialising mixin config actualhay.mixins.json
+	at org.spongepowered.asm.mixin.transformer.Config.create(Config.java:168) ~[sponge-mixin-0.15.4+mixin.0.8.7.jar:0.15.4+mixin.0.8.7]
+	at org.spongepowered.asm.mixin.Mixins.createConfiguration(Mixins.java:121) ~[sponge-mixin-0.15.4+mixin.0.8.7.jar:0.15.4+mixin.0.8.7]
+	at org.spongepowered.asm.mixin.Mixins.addConfiguration(Mixins.java:108) ~[sponge-mixin-0.15.4+mixin.0.8.7.jar:0.15.4+mixin.0.8.7]
+	at org.spongepowered.asm.mixin.Mixins.addConfiguration(Mixins.java:98) ~[sponge-mixin-0.15.4+mixin.0.8.7.jar:0.15.4+mixin.0.8.7]
+	at net.fabricmc.loader.impl.launch.FabricMixinBootstrap.init(FabricMixinBootstrap.java:94) ~[fabric-loader-0.16.10.jar:?]
+	... 4 more
+Caused by: java.lang.IllegalArgumentException: The specified resource 'actualhay.mixins.json' was invalid or could not be read
+	at org.spongepowered.asm.mixin.transformer.MixinConfig.create(MixinConfig.java:1395) ~[sponge-mixin-0.15.4+mixin.0.8.7.jar:0.15.4+mixin.0.8.7]
+	at org.spongepowered.asm.mixin.transformer.Config.create(Config.java:163) ~[sponge-mixin-0.15.4+mixin.0.8.7.jar:0.15.4+mixin.0.8.7]
+	at org.spongepowered.asm.mixin.Mixins.createConfiguration(Mixins.java:121) ~[sponge-mixin-0.15.4+mixin.0.8.7.jar:0.15.4+mixin.0.8.7]
+	at org.spongepowered.asm.mixin.Mixins.addConfiguration(Mixins.java:108) ~[sponge-mixin-0.15.4+mixin.0.8.7.jar:0.15.4+mixin.0.8.7]
+	at org.spongepowered.asm.mixin.Mixins.addConfiguration(Mixins.java:98) ~[sponge-mixin-0.15.4+mixin.0.8.7.jar:0.15.4+mixin.0.8.7]
+	at net.fabricmc.loader.impl.launch.FabricMixinBootstrap.init(FabricMixinBootstrap.java:94) ~[fabric-loader-0.16.10.jar:?]
+	... 4 more

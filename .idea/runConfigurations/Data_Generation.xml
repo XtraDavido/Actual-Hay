@@ -1,9 +1,9 @@
 <component name="ProjectRunConfigurationManager">
   <configuration default="false" factoryName="Application" name="Data Generation" type="Application">
     <option name="MAIN_CLASS_NAME" value="net.fabricmc.devlaunchinjector.Main"/>
-    <module name="Actual_Hay.main"/>
+    <module name="Actual-Hay.main"/>
     <option name="PROGRAM_PARAMETERS" value=""/>
-    <option name="VM_PARAMETERS" value="-Dfabric.dli.config=D:\Users\David@@0020K\Documents\Actual@@0020Hay\.gradle\loom-cache\launch.cfg -Dfabric.dli.env=client -Dfabric-api.datagen &quot;-Dfabric-api.datagen.output-dir=D:\Users\David K\Documents\Actual Hay\src\main\generated&quot; -Dfabric.dli.main=net.fabricmc.loader.impl.launch.knot.KnotClient"/>
+    <option name="VM_PARAMETERS" value="-Dfabric.dli.config=E:\Users\david\IdeaProjects\Actual-Hay\.gradle\loom-cache\launch.cfg -Dfabric.dli.env=client -Dfabric-api.datagen -Dfabric-api.datagen.output-dir=E:\Users\david\IdeaProjects\Actual-Hay\src\main\generated -Dfabric.dli.main=net.fabricmc.loader.impl.launch.knot.KnotClient"/>
     <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/build/datagen/"/>
     <method v="2">
       <option enabled="true" name="Make"/>
