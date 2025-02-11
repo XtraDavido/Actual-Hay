@@ -2,6 +2,7 @@ package net.xtradavido.actualhay;
 
 import net.fabricmc.api.ModInitializer;
 
+import net.xtradavido.actualhay.block.ModBlocks;
 import net.xtradavido.actualhay.item.ModItems;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -13,5 +14,6 @@ public class ActualHay implements ModInitializer {
 	@Override
 	public void onInitialize() {
 		ModItems.registerModItems();
+		ModBlocks.registerModBlocks();
 	}
 }
