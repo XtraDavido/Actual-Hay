@@ -12,14 +12,18 @@ import net.minecraft.util.Identifier;
 import net.xtradavido.actualhay.ActualHay;
 
 public class ModItems {
-    public static final Item GRASS_ITEM = registerItem("grass", new Item(new Item.Settings().registryKey(RegistryKey.of(RegistryKeys.ITEM, Identifier.of(ActualHay.MOD_ID, "grass")))));
-    public static final Item DRIED_GRASS_ITEM = registerItem("dried_grass", new Item(new Item.Settings().registryKey(RegistryKey.of(RegistryKeys.ITEM, Identifier.of(ActualHay.MOD_ID, "dried_grass")))));
-    public static final Item HAY = registerItem("hay", new Item(new Item.Settings().registryKey(RegistryKey.of(RegistryKeys.ITEM, Identifier.of(ActualHay.MOD_ID, "hay")))));
-    public static final Item GRAIN = registerItem("grain", new Item(new Item.Settings().registryKey(RegistryKey.of(RegistryKeys.ITEM, Identifier.of(ActualHay.MOD_ID, "grain")))));
-    public static final Item STRAW = registerItem("straw", new Item(new Item.Settings().registryKey(RegistryKey.of(RegistryKeys.ITEM, Identifier.of(ActualHay.MOD_ID, "straw")))));
+    public static final Item GRASS_ITEM = registerItem("grass", new Item(new Item.Settings().registryKey(itemRegistryKeyOf("grass"))));
+    public static final Item DRIED_GRASS_ITEM = registerItem("dried_grass", new Item(new Item.Settings().registryKey(itemRegistryKeyOf("dried_grass"))));
+    public static final Item HAY = registerItem("hay", new Item(new Item.Settings().registryKey(itemRegistryKeyOf("hay"))));
+    public static final Item GRAIN = registerItem("grain", new Item(new Item.Settings().registryKey(itemRegistryKeyOf("grain"))));
+    public static final Item STRAW = registerItem("straw", new Item(new Item.Settings().registryKey(itemRegistryKeyOf("straw"))));
 
     private static Item registerItem(String name, Item item) {
         return Registry.register(Registries.ITEM, Identifier.of(ActualHay.MOD_ID, name), item);
+    }
+
+    private static RegistryKey<Item> itemRegistryKeyOf(String path) {
+        return RegistryKey.of(RegistryKeys.ITEM, Identifier.of(ActualHay.MOD_ID, path));
     }
 
     private static void customIngredients(FabricItemGroupEntries entries) {

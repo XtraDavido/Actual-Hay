@@ -39,7 +39,11 @@ public class ModBlocks {
 
     private static void registerBlockItem(String name, Block block) {
         Registry.register(Registries.ITEM, Identifier.of(ActualHay.MOD_ID, name),
-                new BlockItem(block, new Item.Settings()));
+                new BlockItem(block, new Item.Settings().registryKey(itemRegistryKeyOf(name))));
+    }
+
+    private static RegistryKey<Item> itemRegistryKeyOf(String path) {
+        return RegistryKey.of(RegistryKeys.ITEM, Identifier.of(ActualHay.MOD_ID, path));
     }
 
     private static void customNatural(FabricItemGroupEntries entries) {
@@ -52,7 +56,7 @@ public class ModBlocks {
     }
 
     public static void registerModBlocks() {
-        ActualHay.LOGGER.info("Registring Mod Blocks for " + ActualHay.MOD_ID);
+        ActualHay.LOGGER.info("Registering Mod Blocks for " + ActualHay.MOD_ID);
 
         ItemGroupEvents.modifyEntriesEvent(ItemGroups.NATURAL).register(ModBlocks::customNatural);
     }
