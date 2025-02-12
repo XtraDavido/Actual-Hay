@@ -2,9 +2,7 @@ package net.xtradavido.actualhay.block;
 
 import net.fabricmc.fabric.api.itemgroup.v1.FabricItemGroupEntries;
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
-import net.minecraft.block.AbstractBlock;
-import net.minecraft.block.Block;
-import net.minecraft.block.MapColor;
+import net.minecraft.block.*;
 import net.minecraft.block.enums.NoteBlockInstrument;
 import net.minecraft.block.piston.PistonBehavior;
 import net.minecraft.item.BlockItem;
@@ -28,9 +26,10 @@ public class ModBlocks {
     public static final Block THATCH_BLOCK = registerBlock("thatch_block",
             new Block(AbstractBlock.Settings.create().mapColor(MapColor.YELLOW).strength(0.5F).sounds(BlockSoundGroup.GRASS).registryKey(RegistryKey.of(RegistryKeys.BLOCK, Identifier.of(ActualHay.MOD_ID, "thatch_block")))));
     public static final Block THATCH_SLAB = registerBlock("thatch_slab",
-            new Block(AbstractBlock.Settings.create().mapColor(MapColor.YELLOW).strength(0.5F).sounds(BlockSoundGroup.GRASS).registryKey(RegistryKey.of(RegistryKeys.BLOCK, Identifier.of(ActualHay.MOD_ID, "thatch_slab")))));
+            new SlabBlock(AbstractBlock.Settings.create().mapColor(MapColor.YELLOW).strength(0.5F).sounds(BlockSoundGroup.GRASS).registryKey(RegistryKey.of(RegistryKeys.BLOCK, Identifier.of(ActualHay.MOD_ID, "thatch_slab")))));
     public static final Block THATCH_STAIRS = registerBlock("thatch_stairs",
-            new Block(AbstractBlock.Settings.create().mapColor(MapColor.YELLOW).strength(0.5F).sounds(BlockSoundGroup.GRASS).registryKey(RegistryKey.of(RegistryKeys.BLOCK, Identifier.of(ActualHay.MOD_ID, "thatch_stairs")))));
+            new StairsBlock(ModBlocks.THATCH_BLOCK.getDefaultState(),
+                    AbstractBlock.Settings.create().mapColor(MapColor.YELLOW).strength(0.5F).sounds(BlockSoundGroup.GRASS).registryKey(RegistryKey.of(RegistryKeys.BLOCK, Identifier.of(ActualHay.MOD_ID, "thatch_stairs")))));
 
     private static Block registerBlock(String name, Block block) {
         registerBlockItem(name, block);
