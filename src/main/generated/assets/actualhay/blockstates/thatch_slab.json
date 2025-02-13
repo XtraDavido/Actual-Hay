@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "actualhay:block/thatch_slab"
+    },
+    "type=double": {
+      "model": "actualhay:block/thatch_block"
+    },
+    "type=top": {
+      "model": "actualhay:block/thatch_slab_top"
+    }
+  }
+}
