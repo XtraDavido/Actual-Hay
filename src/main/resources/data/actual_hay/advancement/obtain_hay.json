@@ -3,8 +3,8 @@
     "icon": {
       "id": "actualhay:hay"
     },
-    "title": "Pickup Hay",
-    "description": "Pickup your first actual piece of Hay!",
+    "title": "Hay There!",
+    "description": "Turn Dried Grass to Hay using a Smoker!",
     "frame": "task",
     "show_toast": true,
     "announce_to_chat": true,
