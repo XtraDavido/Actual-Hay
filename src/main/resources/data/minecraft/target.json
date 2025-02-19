@@ -2,7 +2,7 @@
   "type": "minecraft:crafting_shaped",
   "category": "redstone",
   "key": {
-    "S": "minecraft:straw_block",
+    "S": "actual_hay:straw_block",
     "R": "minecraft:redstone"
   },
   "pattern": [

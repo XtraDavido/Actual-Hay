@@ -4,7 +4,7 @@
   "key": {
     "A": "minecraft:milk_bucket",
     "B": "minecraft:sugar",
-    "C": "minecraft:grain",
+    "C": "actual_hay:grain",
     "E": "minecraft:egg"
   },
   "pattern": [

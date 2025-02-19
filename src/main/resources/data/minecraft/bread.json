@@ -2,7 +2,7 @@
   "type": "minecraft:crafting_shaped",
   "category": "misc",
   "key": {
-    "#": "minecraft:grain"
+    "#": "actual_hay:grain"
   },
   "pattern": [
     "###"
