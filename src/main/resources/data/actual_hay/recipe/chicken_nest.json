@@ -6,11 +6,11 @@
   ],
   "key": {
     "#": {
-      "item": "actualhay:straw"
+      "item": "actual_hay:straw"
     }
   },
   "result": {
-    "id": "actualhay:chicken_nest",
+    "id": "actual_hay:chicken_nest",
     "count": 1
   }
 }

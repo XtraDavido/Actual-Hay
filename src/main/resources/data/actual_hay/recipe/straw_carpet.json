@@ -5,11 +5,11 @@
   ],
   "key": {
     "#": {
-      "item": "actualhay:straw_block"
+      "item": "actual_hay:straw_block"
     }
   },
   "result": {
-    "id": "actualhay:straw_carpet",
+    "id": "actual_hay:straw_carpet",
     "count": 3
   }
 }

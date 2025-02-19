@@ -7,11 +7,11 @@
   ],
   "key": {
     "#": {
-      "item": "actualhay:thatch_block"
+      "item": "actual_hay:thatch_block"
     }
   },
   "result": {
-    "id": "actualhay:thatch_stairs",
+    "id": "actual_hay:thatch_stairs",
     "count": 4
   }
 }
