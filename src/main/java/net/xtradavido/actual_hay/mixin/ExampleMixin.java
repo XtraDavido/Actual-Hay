@@ -1,4 +1,4 @@
-package net.xtradavido.actualhay.mixin;
+package net.xtradavido.actual_hay.mixin;
 
 import net.minecraft.server.MinecraftServer;
 import org.spongepowered.asm.mixin.Mixin;

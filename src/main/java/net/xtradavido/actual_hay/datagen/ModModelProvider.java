@@ -1,13 +1,12 @@
-package net.xtradavido.actualhay.datagen;
+package net.xtradavido.actual_hay.datagen;
 
 import net.fabricmc.fabric.api.client.datagen.v1.provider.FabricModelProvider;
 import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput;
 import net.minecraft.client.data.BlockStateModelGenerator;
 import net.minecraft.client.data.ItemModelGenerator;
 import net.minecraft.client.data.Models;
-import net.minecraft.client.data.TexturedModel;
-import net.xtradavido.actualhay.block.ModBlocks;
-import net.xtradavido.actualhay.item.ModItems;
+import net.xtradavido.actual_hay.block.ModBlocks;
+import net.xtradavido.actual_hay.item.ModItems;
 
 public class ModModelProvider extends FabricModelProvider {
     public ModModelProvider(FabricDataOutput output) {

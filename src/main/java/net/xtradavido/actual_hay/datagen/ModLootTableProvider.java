@@ -1,4 +1,4 @@
-package net.xtradavido.actualhay.datagen;
+package net.xtradavido.actual_hay.datagen;
 
 import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput;
 import net.fabricmc.fabric.api.datagen.v1.provider.FabricBlockLootTableProvider;

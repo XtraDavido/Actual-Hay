@@ -1,11 +1,11 @@
-package net.xtradavido.actualhay;
+package net.xtradavido.actual_hay;
 
 import net.fabricmc.fabric.api.datagen.v1.DataGeneratorEntrypoint;
 import net.fabricmc.fabric.api.datagen.v1.FabricDataGenerator;
-import net.xtradavido.actualhay.datagen.ModBlockTagProvider;
-import net.xtradavido.actualhay.datagen.ModItemTagProvider;
-import net.xtradavido.actualhay.datagen.ModLootTableProvider;
-import net.xtradavido.actualhay.datagen.ModModelProvider;
+import net.xtradavido.actual_hay.datagen.ModBlockTagProvider;
+import net.xtradavido.actual_hay.datagen.ModItemTagProvider;
+import net.xtradavido.actual_hay.datagen.ModLootTableProvider;
+import net.xtradavido.actual_hay.datagen.ModModelProvider;
 
 public class ActualHayDataGenerator implements DataGeneratorEntrypoint {
 	@Override

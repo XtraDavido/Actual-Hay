@@ -1,9 +1,9 @@
-package net.xtradavido.actualhay;
+package net.xtradavido.actual_hay;
 
 import net.fabricmc.api.ModInitializer;
 
-import net.xtradavido.actualhay.block.ModBlocks;
-import net.xtradavido.actualhay.item.ModItems;
+import net.xtradavido.actual_hay.block.ModBlocks;
+import net.xtradavido.actual_hay.item.ModItems;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 

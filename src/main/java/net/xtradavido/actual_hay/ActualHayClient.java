@@ -1,4 +1,4 @@
-package net.xtradavido.actualhay;
+package net.xtradavido.actual_hay;
 
 import net.fabricmc.api.ClientModInitializer;
 

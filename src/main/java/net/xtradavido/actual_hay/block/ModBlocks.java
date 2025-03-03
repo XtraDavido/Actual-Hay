@@ -1,4 +1,4 @@
-package net.xtradavido.actualhay.block;
+package net.xtradavido.actual_hay.block;
 
 import net.fabricmc.fabric.api.itemgroup.v1.FabricItemGroupEntries;
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
@@ -14,7 +14,7 @@ import net.minecraft.registry.RegistryKey;
 import net.minecraft.registry.RegistryKeys;
 import net.minecraft.sound.BlockSoundGroup;
 import net.minecraft.util.Identifier;
-import net.xtradavido.actualhay.ActualHay;
+import net.xtradavido.actual_hay.ActualHay;
 
 public class ModBlocks {
     public static final Block STRAW_BLOCK = registerBlock("straw_block",

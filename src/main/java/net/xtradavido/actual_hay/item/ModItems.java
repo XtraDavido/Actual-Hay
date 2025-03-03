@@ -1,4 +1,4 @@
-package net.xtradavido.actualhay.item;
+package net.xtradavido.actual_hay.item;
 
 import net.fabricmc.fabric.api.itemgroup.v1.FabricItemGroupEntries;
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
@@ -9,7 +9,7 @@ import net.minecraft.registry.Registry;
 import net.minecraft.registry.RegistryKey;
 import net.minecraft.registry.RegistryKeys;
 import net.minecraft.util.Identifier;
-import net.xtradavido.actualhay.ActualHay;
+import net.xtradavido.actual_hay.ActualHay;
 
 public class ModItems {
     public static final Item GRASS_ITEM = registerItem("grass", new Item(new Item.Settings().registryKey(itemRegistryKeyOf("grass"))));
