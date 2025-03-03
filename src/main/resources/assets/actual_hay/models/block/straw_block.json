@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column",
+  "textures": {
+    "end": "actual_hay:block/straw_block_top",
+    "side": "actual_hay:block/straw_block_side"
+  }
+}

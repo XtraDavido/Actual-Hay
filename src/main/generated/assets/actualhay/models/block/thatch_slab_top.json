@@ -1,8 +1,0 @@
-{
-  "parent": "minecraft:block/slab_top",
-  "textures": {
-    "bottom": "actualhay:block/thatch_block",
-    "side": "actualhay:block/thatch_block",
-    "top": "actualhay:block/thatch_block"
-  }
-}

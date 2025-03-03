@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "axis=x": {
+      "model": "actual_hay:block/straw_block_horizontal",
+      "x": 90,
+      "y": 90
+    },
+    "axis=y": {
+      "model": "actual_hay:block/straw_block"
+    },
+    "axis=z": {
+      "model": "actual_hay:block/straw_block_horizontal",
+      "x": 90
+    }
+  }
+}

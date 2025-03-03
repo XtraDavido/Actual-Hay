@@ -2,15 +2,15 @@
   "type": "minecraft:crafting_shapeless",
   "category": "building",
   "ingredients": [
-    "actualhay:hay",
-    "actualhay:hay",
-    "actualhay:hay",
-    "actualhay:hay",
-    "actualhay:hay",
-    "actualhay:hay",
-    "actualhay:hay",
-    "actualhay:hay",
-    "actualhay:hay"
+    "actual_hay:hay",
+    "actual_hay:hay",
+    "actual_hay:hay",
+    "actual_hay:hay",
+    "actual_hay:hay",
+    "actual_hay:hay",
+    "actual_hay:hay",
+    "actual_hay:hay",
+    "actual_hay:hay"
   ],
   "result": {
     "count": 1,

@@ -18,9 +18,9 @@ import net.xtradavido.actualhay.ActualHay;
 
 public class ModBlocks {
     public static final Block STRAW_BLOCK = registerBlock("straw_block",
-            new Block(AbstractBlock.Settings.create().mapColor(MapColor.YELLOW).instrument(NoteBlockInstrument.BANJO).strength(0.5F).sounds(BlockSoundGroup.GRASS).registryKey(RegistryKey.of(RegistryKeys.BLOCK, Identifier.of(ActualHay.MOD_ID, "straw_block")))));
+            new HayBlock(AbstractBlock.Settings.create().mapColor(MapColor.YELLOW).instrument(NoteBlockInstrument.BANJO).strength(0.5F).sounds(BlockSoundGroup.GRASS).registryKey(RegistryKey.of(RegistryKeys.BLOCK, Identifier.of(ActualHay.MOD_ID, "straw_block")))));
     public static final Block HAY_CARPET = registerBlock("hay_carpet",
-            new Block(AbstractBlock.Settings.create().mapColor(MapColor.YELLOW).strength(0.5F).sounds(BlockSoundGroup.GRASS).pistonBehavior(PistonBehavior.DESTROY).registryKey(RegistryKey.of(RegistryKeys.BLOCK, Identifier.of(ActualHay.MOD_ID, "hay_carpet")))));
+            new CarpetBlock(AbstractBlock.Settings.create().mapColor(MapColor.YELLOW).strength(0.5F).sounds(BlockSoundGroup.GRASS).pistonBehavior(PistonBehavior.DESTROY).registryKey(RegistryKey.of(RegistryKeys.BLOCK, Identifier.of(ActualHay.MOD_ID, "hay_carpet")))));
     public static final Block STRAW_CARPET = registerBlock("straw_carpet",
             new CarpetBlock(AbstractBlock.Settings.create().mapColor(MapColor.YELLOW).strength(0.5F).sounds(BlockSoundGroup.GRASS).pistonBehavior(PistonBehavior.DESTROY).registryKey(RegistryKey.of(RegistryKeys.BLOCK, Identifier.of(ActualHay.MOD_ID, "straw_carpet")))));
     public static final Block THATCH_BLOCK = registerBlock("thatch_block",

@@ -5,6 +5,7 @@ import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput;
 import net.minecraft.client.data.BlockStateModelGenerator;
 import net.minecraft.client.data.ItemModelGenerator;
 import net.minecraft.client.data.Models;
+import net.minecraft.client.data.TexturedModel;
 import net.xtradavido.actualhay.block.ModBlocks;
 import net.xtradavido.actualhay.item.ModItems;
 
@@ -15,9 +16,8 @@ public class ModModelProvider extends FabricModelProvider {
 
     @Override
     public void generateBlockStateModels(BlockStateModelGenerator blockStateModelGenerator) {
-        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.HAY_CARPET);
-        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.STRAW_BLOCK);
-        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.STRAW_CARPET);
+        blockStateModelGenerator.registerPaleMossCarpet(ModBlocks.HAY_CARPET);
+        blockStateModelGenerator.registerWoolAndCarpet(ModBlocks.STRAW_BLOCK,ModBlocks.STRAW_CARPET);
 
         BlockStateModelGenerator.BlockTexturePool thatchTexturePool =
                 blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.THATCH_BLOCK);
