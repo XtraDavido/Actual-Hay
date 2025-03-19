@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "minecraft:hay_block"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    },
+    "has_hay": {
+      "conditions": {
+        "items": [
+          {
+            "items": "actual_hay:hay"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_hay"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "minecraft:hay_block"
+    ]
+  }
+}
