@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:campfire_cooking",
+  "ingredient": "actual_hay:dried_grass",
+  "result": {
+    "id": "actual_hay:hay"
+  },
+  "experience": 0.1,
+  "cookingtime": 600
+}
