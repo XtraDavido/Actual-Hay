@@ -30,6 +30,8 @@ public class ModBlocks {
     public static final Block THATCH_STAIRS = registerBlock("thatch_stairs",
             new StairsBlock(ModBlocks.THATCH_BLOCK.getDefaultState(),
                     AbstractBlock.Settings.create().mapColor(MapColor.YELLOW).strength(0.5F).sounds(BlockSoundGroup.GRASS).registryKey(RegistryKey.of(RegistryKeys.BLOCK, Identifier.of(ActualHay.MOD_ID, "thatch_stairs")))));
+//    public static final Block SHORT_GRASS = register("wild_wheat",
+//            ShortPlantBlock::new, AbstractBlock.Settings.create().mapColor(MapColor.DARK_GREEN).replaceable().noCollision().breakInstantly().sounds(BlockSoundGroup.GRASS).offset(AbstractBlock.OffsetType.XYZ).burnable().pistonBehavior(PistonBehavior.DESTROY));
 
     private static Block registerBlock(String name, Block block) {
         registerBlockItem(name, block);
