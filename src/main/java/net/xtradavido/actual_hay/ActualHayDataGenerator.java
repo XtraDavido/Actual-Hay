@@ -5,6 +5,7 @@ import net.fabricmc.fabric.api.datagen.v1.FabricDataGenerator;
 import net.xtradavido.actual_hay.datagen.ModBlockTagProvider;
 import net.xtradavido.actual_hay.datagen.ModItemTagProvider;
 import net.xtradavido.actual_hay.datagen.ModLootTableProvider;
+import net.xtradavido.actual_hay.datagen.ModRecipeGenerator;
 
 public class ActualHayDataGenerator implements DataGeneratorEntrypoint {
 	@Override
@@ -14,5 +15,6 @@ public class ActualHayDataGenerator implements DataGeneratorEntrypoint {
 		pack.addProvider(ModBlockTagProvider::new);
 		pack.addProvider(ModItemTagProvider::new);
 		pack.addProvider(ModLootTableProvider::new);
+		pack.addProvider(ModRecipeGenerator::new);
 	}
 }
