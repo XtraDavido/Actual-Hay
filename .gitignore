@@ -3,4 +3,4 @@
 build/
 gradle/
 run/
-src/generated/.cache
+src/generated/.cache/

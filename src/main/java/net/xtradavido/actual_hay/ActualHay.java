@@ -4,6 +4,7 @@ import net.fabricmc.api.ModInitializer;
 
 import net.xtradavido.actual_hay.block.ModBlocks;
 import net.xtradavido.actual_hay.item.ModItems;
+import net.xtradavido.actual_hay.util.ModFuelItems;
 import net.xtradavido.actual_hay.util.ModLootTables;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -16,6 +17,7 @@ public class ActualHay implements ModInitializer {
 	public void onInitialize() {
 		ModItems.registerModItems();
 		ModBlocks.registerModBlocks();
+		ModFuelItems.registerFuelItems();
 		ModLootTables.modifyLootTables();
 	}
 }

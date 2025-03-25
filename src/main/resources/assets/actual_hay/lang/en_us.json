@@ -1,4 +1,6 @@
 {
+  "advancements.husbandry.pickup_hay.description": "Dry Grass until it becomes Hay!",
+  "advancements.husbandry.pickup_hay.title": "Hay There!",
   "block.actual_hay.hay_carpet": "Hay Carpet",
   "block.actual_hay.straw_block": "Straw Bale",
   "block.actual_hay.straw_carpet": "Straw Carpet",
