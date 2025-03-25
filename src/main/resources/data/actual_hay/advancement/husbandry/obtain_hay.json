@@ -3,8 +3,8 @@
     "icon": {
       "id": "actual_hay:hay"
     },
-    "title": "Hay There!",
-    "description": "Dry Grass until it becomes Hay!",
+    "title": "advancements.husbandry.pickup_hay.title",
+    "description": "advancements.husbandry.pickup_hay.description",
     "frame": "task",
     "show_toast": true,
     "announce_to_chat": true,
