@@ -3,14 +3,14 @@
     "icon": {
       "id": "actual_hay:hay"
     },
-    "title": "Hay There!",
-    "description": "Turn Dried Grass to Hay using a Smoker!",
+    "title": "advancements.husbandry.pickup_hay.title",
+    "description": "advancements.husbandry.pickup_hay.description",
     "frame": "task",
     "show_toast": true,
     "announce_to_chat": true,
     "hidden": false
   },
-  "parent": "minecraft:adventure/root",
+  "parent": "minecraft:husbandry/root",
   "criteria": {
     "pickup_hay": {
       "trigger": "minecraft:inventory_changed",
